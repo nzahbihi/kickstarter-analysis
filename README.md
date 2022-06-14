@@ -3,13 +3,13 @@
 ## Overview of Project
 
 ### Purpose
-This analysis was conducted to uncover trends that may be of assistance to Louise, who would like to set up a Kickstarter campaign for a play. To do this, we pulled data of various parameters of Kickstarter campaigns. We then utilized various data analysis tools in Microsoft Excel to investigate inquiries that would be beneficial to Louise planning her campaign. This included: what time of year is the best to launch a successful campaign, and what amount of money is a good goal to set for success.
+This analysis was conducted to uncover trends that may be of assistance to Louise, who would like to compare her campaign for her play _Fever_ to other fundraised plays on Kickstarter. To do this, we pulled data of various parameters of Kickstarter campaigns. We then utilized various data analysis tools in Microsoft Excel to provide the following information to Louise: what time of year is the best to launch a successful campaign, and what amount of money is a good goal to set for success.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-In order to determine what makes for a successful Kickstarter campaign, one trend we can look to is what time of year is best to launch one. This analysis can help Louise plan which month to launch hers in. We took the data from the Kickstarter dataset to create a pivot table in Excel, and filtered it to display the following information:
+As per Louise's request, one of the trends we looked into was comparing the outcomes of fundraised campaigns versus the time of year they were launched in. This analysis can help Louise compare her campaign's launch date to what the data shows to be successful launch months. We extracted the data from the Kickstarter dataset to create a pivot table in Excel, and filtered it to display the following information:
 - Kickstarter Campaigns specifically under the Theater category.
 - Which months they were launched in.
 - Whether they were successful, had failed, or were canceled.
@@ -23,7 +23,7 @@ Upon filtering the data in the table, we created a line chart to visually ascert
 
 ### Analysis of Outcomes Based on Goals
 
-To further assist Louise, we also looked into goal amounts for the campaigns and their outcomes. Determining what is a successful goal range would increase the chances of her campaign succeeding. To determine the relationship between the two, we utilized a powerful formula in Excel to extract information from the Kickstarter data: COUNTIFS. I learned more about how to use the COUNTIFs function [here](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us). We set up a table with a column displaying ranges of goals from less than 1,000 to 50,000 or more. For those goal ranges, we counted how many were successful, had failed, and were canceled. We also took this information to calculate the percentages of success, failure, and cancelation.
+To further assist Louise, we also looked into goal amounts for the campaigns and their outcomes. To determine the relationship between the two, we utilized a powerful formula in Excel to extract information from the Kickstarter data: COUNTIFS. I learned more about how to use the COUNTIFs function [here](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us). We set up a table with a column displaying ranges of goals from less than 1,000 to 50,000 or more. For those goal ranges, we counted how many were successful, had failed, and were canceled. We also took this information to calculate the percentages of success, failure, and cancelation.
 
 Upon calculating these numbers, we then created a line chart to visually display the information:
 
